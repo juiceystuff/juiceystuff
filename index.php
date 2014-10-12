@@ -85,17 +85,18 @@
   				</section>
   			</div>
   		</div>
-  		<p align="center" id="e-mob"><img src="img/e.svg" width="80" height="80" style="margin-top:100px;"></p>
+  		<p align="center" id="e-mob"><img src="img/e.svg" width="50" height="50" style="margin-top:30px;" alt="JuiceyStuff Digital Design Studio - Cwmbran"></p>
+  		<p align="center" style="margin-top:-50px;">JuiceyStuff</p>
   		<div class="landing-title">
     		<h1>The Digital Design Studio that creates an outstanding experience for all digital media</h1>
-    		<p align="center" style="color:#fff;"><i class="icon-down-circled"></i>Scroll</p>
+    		<div class="medium primary btn"><a href="#">See more</a></div>
     	</div>
     </div>
   </div>
 </section>
 
 <!-- Services section  -->
-<section>
+<section class="bordertop">
 	<article>
 			<div class="row">
 				<div class="twelve columns" style="margin-top:70px; padding-bottom:50px;">
