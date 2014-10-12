@@ -117,7 +117,7 @@
 </section>
 
 
-<section id="panel12">				
+<section id="panel2">				
 	<div class="row">
         	<div class="twelve columns centered text-center">
         		<div class="six columns" id="strategic">
