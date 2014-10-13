@@ -67,7 +67,7 @@ strong {
 	cursor: pointer;
 	margin: -50px 0;
 	font-size: 3.25em;
-	float:left;
+	float:right;
 }
 
 .menu-main > section button:hover {
