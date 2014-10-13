@@ -41,6 +41,7 @@
 	<link rel="stylesheet" href="css/main.css">
 	<!-- <link rel="stylesheet" href="css/style.css"> -->
 	<script src="js/modernizr.js"></script>
+
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script type="text/javascript">
 	$(window).load(function() {
@@ -49,54 +50,48 @@
 	</script>
 		
 </head>
-	<div class="landing-main">
-		<div class="row">
-			<div class="twelve columns">
-				<div class="two columns">
-				</div>
-			<div class="ten columns">
-				<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
-					<h3>Menu</h3>
-					<a href="index.php">Home</a>
-					<a href="about.php">About</a>
-					<a href="latest.php">Latest</a>
-					<a href="http://blog.juiceystuff.com">Our Blog</a>
-					<a href="quote.php">Request a quote</a>
-					<a href="#keep-in-touch">Contact us</a>
-				</nav>
-			</div>  
-			</div>	
-		</div>
-	</div>
+	
 <body>
+	<div class="landing-main">
+		<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left">
+			<p align="center"><img src="img/e.svg" width="50" height="50" style="margin-top:30px;"></p>
+			<a href="index.php">Home</a>
+			<a href="about.php">About</a>
+			<a href="latest.php">Latest</a>
+			<a href="http://blog.juiceystuff.com">Our Blog</a>
+			<a href="quote.php">Request a quote</a>
+			<a href="#keep-in-touch">Contact us</a>
+		</nav>		
+	</div>
+
 <div class="loader"></div>
 	
 <section class="module parallax parallax-1" id="panel1">
   <div class="row">
   	<div class="twelve columns">  		
-  		<div class="four columns">
-  			
-  		</div>  
-
-  		<div class="eight columns">
   			<div class="menu-main">
   				<section>
-  					<button id="showLeft"><i class="icon-menu"></i></button>
+  					<button class="toggle-menu menu-left push-body"><i class="icon-menu"></i></button>
   				</section>
   			</div>
   		</div>
-  		<p align="center" id="e-mob"><img src="img/e.svg" width="50" height="50" style="margin-top:30px;" alt="JuiceyStuff Digital Design Studio - Cwmbran"></p>
-  		<p align="center" style="margin-top:-50px;">JuiceyStuff</p>
-  		<div class="landing-title">
-    		<h1>The Digital Design Studio that creates an outstanding experience for all digital media</h1>
-    		<div class="medium primary btn"><a href="#">See more</a></div>
+  	</div>
+
+  	<div class="row">
+  		<div class="twelve columns"> 
+  			<p align="center" id="e-mob"><img src="img/e.svg" width="50" height="50" style="margin-top:30px;" alt="JuiceyStuff Digital Design Studio - Cwmbran"></p>
+  			<p align="center" id="js">JuiceyStuff</p>
+  		
+  			<div class="landing-title">
+    			<h1>The Digital Design Studio that creates an outstanding experience for all digital media</h1>
+    				<div class="medium primary btn" style="margin-top:100px;"><a href="#more">See more</a></div>
+    		</div>
     	</div>
-    </div>
   </div>
 </section>
 
 <!-- Services section  -->
-<section class="bordertop">
+<section class="bordertop" id="more">
 	<article>
 			<div class="row">
 				<div class="twelve columns" style="margin-top:70px; padding-bottom:50px;">
