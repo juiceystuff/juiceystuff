@@ -55,18 +55,18 @@
 					<img src="img/logo_sml_no.png" width="169" height="35" alt="http://www.juiceystuff.com" style="padding-top:5px;">
 				</div>
 			<div class="nine columns">
-				<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
-					<h3>Menu</h3>
-					<a href="index.php">Home</a>
-					<a href="about.php">About</a>
-					<a href="latest.php">Latest</a>
-					<a href="http://blog.juiceystuff.com">Our Blog</a>
-					<a href="quote.php">Request a quote</a>
-					<a href="#keep-in-touch">Contact us</a>
+				<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left">
+					<p align="center"><img src="img/e.svg" width="50" height="50" style="margin-top:20px; padding-bottom:20px;"></p>
+					<p align="left"><a href="index.php"><i class="icon-home" style="font-size:2em; margin-top:30px;padding-right:20px;"></i>Home</a>
+					<a href="about.php"><i class="icon-info" style="font-size:2em; margin-top:30px;padding-right:35px;"></i>About</a>
+					<a href="latest.php"><i class="icon-megaphone" style="font-size:2em; margin-top:30px;padding-right:20px;"></i>Latest</a>
+					<a href="http://blog.juiceystuff.com"><i class="icon-ticket" style="font-size:2em; margin-top:30px;padding-right:20px;"></i>Our Blog</a>
+					<a href="quote.php"><i class="icon-newspaper" style="font-size:2em; margin-top:30px;padding-right:20px;"></i>Request a quote</a>
+					<a href="#keep-in-touch"><i class="icon-pencil" style="font-size:2em; margin-top:30px;padding-right:20px;"></i>Contact us</a></p>
 				</nav>
 				<div class="menu-main">
   				<section>
-  					<button id="showLeft" style="float:right;"><i class="icon-menu"></i></button>
+  					<button class="toggle-menu menu-left push-body"><i class="icon-menu"></i></button>
   				</section>
   			</div>
 			</div>  

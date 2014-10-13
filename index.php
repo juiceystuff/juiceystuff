@@ -54,13 +54,13 @@
 <body>
 	<div class="landing-main">
 		<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left">
-			<p align="center"><img src="img/e.svg" width="50" height="50" style="margin-top:30px;"></p>
-			<a href="index.php">Home</a>
-			<a href="about.php">About</a>
-			<a href="latest.php">Latest</a>
-			<a href="http://blog.juiceystuff.com">Our Blog</a>
-			<a href="quote.php">Request a quote</a>
-			<a href="#keep-in-touch">Contact us</a>
+			<p align="center"><img src="img/e.svg" width="50" height="50" style="margin-top:20px; padding-bottom:20px;"></p>
+			<p align="left"><a href="index.php"><i class="icon-home" style="font-size:2em; margin-top:30px;padding-right:20px;"></i>Home</a>
+			<a href="about.php"><i class="icon-info" style="font-size:2em; margin-top:30px;padding-right:35px;"></i>About</a>
+			<a href="latest.php"><i class="icon-megaphone" style="font-size:2em; margin-top:30px;padding-right:20px;"></i>Latest</a>
+			<a href="http://blog.juiceystuff.com"><i class="icon-ticket" style="font-size:2em; margin-top:30px;padding-right:20px;"></i>Our Blog</a>
+			<a href="quote.php"><i class="icon-newspaper" style="font-size:2em; margin-top:30px;padding-right:20px;"></i>Request a quote</a>
+			<a href="#keep-in-touch"><i class="icon-pencil" style="font-size:2em; margin-top:30px;padding-right:20px;"></i>Contact us</a></p>
 		</nav>		
 	</div>
 
