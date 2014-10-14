@@ -3,6 +3,7 @@
 body {
 	line-height: ;
 	font-family: 'Raleway', sans-serif;
+	background-color: #fff;
 }
 
 h1 {
@@ -59,7 +60,13 @@ strong {
 	background-color: #000;
 }
 
-.menu-main > section button {
+.menu-main {
+	height: 40px;
+  	z-index: 150;
+  	background-color: #fff;
+}  
+
+.menu-nav > section button {
 	background: transparent; 
 	border: none;	
 	color: #ff9933;
@@ -71,11 +78,11 @@ strong {
 	float:left;
 }
 
-.menu-main > section button:hover {
-	color:#ff9933;
+.menu-nav > section button:hover {
+	color:#ee9933;
 }
 
-.menu-main > section button.active {
+.menu-nav > section button.active {
 	color:#ff9933;
 	border: none;
 }
@@ -126,7 +133,6 @@ button:focus {outline:0 !important;}
 }
 
 #panel4 {
-	font-family: 'Raleway', sans-serif;
 	width: 100%;
 	height: 50px;
 	background-color: #000;
@@ -136,6 +142,11 @@ button:focus {outline:0 !important;}
 	width: 100%;
 	height: 300px;
 	background-color: #fff;
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
 }
 
 .landing-title {
@@ -177,6 +188,16 @@ button:focus {outline:0 !important;}
 }
 
 .more1 #shout {
+	font-family: 'Raleway', sans-serif;
+	font-size: 2em;
+}
+
+.more2 {
+	height:400px;
+	border-top: solid 1px #ff9933;	
+}
+
+.more2 #shout {
 	font-family: 'Raleway', sans-serif;
 	font-size: 2em;
 }

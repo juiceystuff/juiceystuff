@@ -42,12 +42,22 @@
 	<link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet'>
 	<!-- <link rel="stylesheet" href="css/style.css"> -->
 	<script src="js/modernizr.js"></script>
-
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	
 	<script type="text/javascript">
 	$(window).load(function() {
 	$(".loader").fadeOut("slow");
 	})
+	</script>
+
+	<script type="text/javascript">
+	jQuery(window).scroll(function() {
+ 	 if (jQuery(this).scrollTop() > 120) {
+    jQuery(".menu-main").css({"position": "fixed", "top": 0, "width": "100%", "border-bottom": "solid 1px #ff9933"});
+  } else {
+    jQuery(".menu-main").removeAttr("style");
+  }
+});
 	</script>
 		
 </head>
@@ -68,15 +78,18 @@
 <div class="loader"></div>
 	
 <section class="module parallax parallax-1" id="panel1">
-  <div class="row">
-  	<div class="twelve columns">  		
-  			<div class="menu-main">
-  				<section>
-  					<button class="toggle-menu menu-left push-body"><i class="icon-menu"></i></button>
-  				</section>
+	<div class="menu-main">
+  		<div class="row">
+  			<div class="twelve columns">
+  				<div class="menu-nav">		  			
+  					<section>
+  						<button class="toggle-menu menu-left push-body"><i class="icon-menu"></i></button>
+  					</section>
+  				</div>
   			</div>
-  		</div>
-  	</div>
+		</div>
+	</div>
+
 
   	<div class="row">
   		<div class="twelve columns"> 
@@ -110,7 +123,7 @@
 	</article>
 </section>
 
-<section id="panel2">				
+<section class="more2">				
 	<div class="row">
         	<div class="twelve columns centered text-center">
         		<div class="six columns" style="padding-left:50px;">
@@ -118,7 +131,7 @@
         		</div>
      		
         		<div class="six columns" id="strategic">
-        			<h2>"wOur technical and strategic thinking, differentiates us from other design studios"</h2>        		
+        			<p id="shout">"Our technical and strategic thinking, <strong>differentiates</strong> us from other design studios"</p>        		
         		</div>
         	</div>	            
        	</div>
