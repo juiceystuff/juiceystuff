@@ -39,6 +39,7 @@
 		 However, there is a blank style.css in the css directory should you prefer -->
 	<link rel="stylesheet" href="css/gumby.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet'>
 	<!-- <link rel="stylesheet" href="css/style.css"> -->
 	<script src="js/modernizr.js"></script>
 
@@ -83,7 +84,8 @@
   			<p align="center" id="js">JuiceyStuff</p>
   		
   			<div class="landing-title">
-    			<h1>The Digital Design Studio that creates an outstanding experience for all digital media</h1>
+    			<h1>The Digital Design Studio</h1>
+    			<h3> Creating an outstanding experience for all digital media</h3>
     				<div class="medium primary btn" style="margin-top:100px;"><a href="#more">See more</a></div>
     		</div>
     	</div>
@@ -91,42 +93,39 @@
 </section>
 
 <!-- Services section  -->
-<section class="bordertop" id="more">
+<section class="more1" id="more">
 	<article>
 			<div class="row">
 				<div class="twelve columns" style="margin-top:70px; padding-bottom:50px;">
-					<div class="seven columns">
-						<h2 style="font-weight:100; color:#ff9933;">The Digital Design Studio</h2>
-						<p id="shoutabout">A Digital Design Studio based in Cwmbran, South Wales. Pushing the boundaries of current technology and always looking for new innovating idea's to allow us to provide the best user experience on any platform. Responsive websites that ooze premium quality and branding that gets you noticed. Understanding whatever your needs, JuiceyStuff are the right partners for the job.</p>
+					<div class="six columns">
+						<p id="shout">At the <strong id="title">Digital Design Studio</strong>
+						we push the boundaries of <strong>current technology</strong> and always look for ways to create innovating idea's to provide the best user experience.</p>
 					</div>
 					
-					<div class="five columns">
-						<p align="right"><img src="img/gb_imac.png" width="200" height="200" alt="Picture of an imac with a Gwentbiz.co.uk website we designed"></p>
+					<div class="six columns" style="margin-left:20px;padding-top:50px;">
+						<img src="img/fruity.jpg" alt="JuiceyStuff Digital Design Studio crafting stunning websites">
 					</div>
 				</div>
 			</div>
 	</article>
 </section>
 
-<section id="panel4">
-	<h4 align="center" style="color:#ff9933;"><i class="icon-phone"></i> Call us on <strong>02921 259222</strong> for a chat or use our <a href="quote.php">contact form</a></h4>
-</section>
-
-
 <section id="panel2">				
 	<div class="row">
         	<div class="twelve columns centered text-center">
-        		<div class="six columns" id="strategic">
-        			<h2 style="color:#fff;">"Our technical and strategic thinking, differentiates us from other design studios"</h2>
+        		<div class="six columns" style="padding-left:50px;">
+        			<div id="showbox"></div>
         		</div>
-
-        		<div class="six columns" style="margin-top:130px; padding-left:50px;">
-        			<div id="showbox">
-        				
-        			</div>
+     		
+        		<div class="six columns" id="strategic">
+        			<h2>"wOur technical and strategic thinking, differentiates us from other design studios"</h2>        		
         		</div>
         	</div>	            
        	</div>
+</section>
+
+<section id="panel4">
+	<h4 align="center" style="color:#ff9933;"><i class="icon-phone"></i> Call us on <strong>02921 259222</strong> for a chat or use our <a href="quote.php">contact form</a></h4>
 </section>
 
 <section class="module parallax parallax-2">
