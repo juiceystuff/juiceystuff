@@ -43,7 +43,8 @@
 	<!-- <link rel="stylesheet" href="css/style.css"> -->
 	<script src="js/modernizr.js"></script>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	
+	<script src="js/script.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
 	<script type="text/javascript">
 	$(window).load(function() {
 	$(".loader").fadeOut("slow");
@@ -52,12 +53,15 @@
 
 	<script type="text/javascript">
 	jQuery(window).scroll(function() {
- 	 if (jQuery(this).scrollTop() > 120) {
+ 	 if (jQuery(this).scrollTop() > 980) {
     jQuery(".menu-main").css({"position": "fixed", "top": 0, "width": "100%", "border-bottom": "solid 1px #ff9933"});
   } else {
     jQuery(".menu-main").removeAttr("style");
   }
 });
+	</script>
+	<script type="text/javascript">
+	
 	</script>
 		
 </head>
@@ -65,19 +69,20 @@
 <body>
 	<div class="landing-main">
 		<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left">
-			<p align="center"><img src="img/e.svg" width="50" height="50" style="margin-top:20px; padding-bottom:20px;"></p>
-			<p align="left"><a href="index.php"><i class="icon-home" style="font-size:2em; margin-top:30px;padding-right:20px;"></i>Home</a>
-			<a href="about.php"><i class="icon-info" style="font-size:2em; margin-top:30px;padding-right:35px;"></i>About</a>
-			<a href="latest.php"><i class="icon-megaphone" style="font-size:2em; margin-top:30px;padding-right:20px;"></i>Latest</a>
-			<a href="http://blog.juiceystuff.com"><i class="icon-ticket" style="font-size:2em; margin-top:30px;padding-right:20px;"></i>Our Blog</a>
-			<a href="quote.php"><i class="icon-newspaper" style="font-size:2em; margin-top:30px;padding-right:20px;"></i>Request a quote</a>
-			<a href="#keep-in-touch"><i class="icon-pencil" style="font-size:2em; margin-top:30px;padding-right:20px;"></i>Contact us</a></p>
+			<!-- <p align="center"><img src="img/e.svg" width="50" height="50" style="margin-top:20px; padding-bottom:20px;"></p> -->
+			<p style="margin-top:50px;"></p>
+			<p align="left"><a href="index.php"><strong><i class="icon-home" style="font-size:2em; margin-top:30px;padding-right:20px;"></i></strong>Home</a>
+			<a href="about.php"><strong><i class="icon-info" style="font-size:2em; margin-top:30px;padding-right:35px;"></i></strong>About</a>
+			<a href="latest.php"><strong><i class="icon-megaphone" style="font-size:2em; margin-top:30px;padding-right:20px;"></i></strong>Latest</a>
+			<a href="http://blog.juiceystuff.com"><strong><i class="icon-ticket" style="font-size:2em; margin-top:30px;padding-right:20px;"></i></strong>Our Blog</a>
+			<a href="quote.php"><strong><i class="icon-newspaper" style="font-size:2em; margin-top:30px;padding-right:20px;"></i></strong>Request a quote</a>
+			<a href="#keep-in-touch"><strong><i class="icon-pencil" style="font-size:2em; margin-top:30px;padding-right:20px;"></i></strong>Contact us</a></p>
 		</nav>		
 	</div>
 
 <div class="loader"></div>
 	
-<section class="module parallax parallax-1" id="panel1">
+<section class="slide" id="panel1" data-slide="1" data-stellar-background-ratio="0.75">
 	<div class="menu-main">
   		<div class="row">
   			<div class="twelve columns">
@@ -93,13 +98,13 @@
 
   	<div class="row">
   		<div class="twelve columns"> 
-  			<p align="center" id="e-mob"><img src="img/e.svg" width="50" height="50" style="margin-top:30px;" alt="JuiceyStuff Digital Design Studio - Cwmbran"></p>
+  			<p align="center" id="e-mob"><img src="img/e.svg" width="100" height="100" style="margin-top:30px;" alt="JuiceyStuff Digital Design Studio - Cwmbran"></p>
   			<p align="center" id="js">JuiceyStuff</p>
   		
   			<div class="landing-title">
     			<h1>The Digital Design Studio</h1>
     			<h3> Creating an outstanding experience for all digital media</h3>
-    				<div class="medium primary btn" style="margin-top:100px;"><a href="#more">See more</a></div>
+    				<div class="medium primary btn" style="margin-top:50px;"><a href="#more">See more</a></div>
     		</div>
     	</div>
   </div>

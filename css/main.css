@@ -1,8 +1,12 @@
 /* Main Settings */
 
+
+*{
+	margin: 0px;
+	padding: 0;
+}
+
 body {
-	line-height: ;
-	font-family: 'Raleway', sans-serif;
 	background-color: #fff;
 }
 
@@ -96,8 +100,9 @@ button:focus {outline:0 !important;}
 }
 
 #js {
-	margin-top:-50px;
+	margin-top: -20px;
 	text-align: center;
+	font-size: 1.5rem;
 }
 
 #pushright {
@@ -116,10 +121,16 @@ button:focus {outline:0 !important;}
 	background: url('../img/page_loader.gif') 50% 50% no-repeat rgb(249,249,249);
 }
 
+.slide{
+	background-attachment: fixed;
+	width:100%;
+	height:100%;
+	position: relative;
+}
+
 #panel1 {
-	margin-top: 0px;
-	height:1000px; 
-	padding-top: 50px;
+	background: url("../img/banana2.jpg");
+	height: 1000px;
 }
 
 #panel2 {
@@ -168,10 +179,11 @@ button:focus {outline:0 !important;}
 	font-weight: 400;
 	text-align: center;
 	margin-top: 0px;
+	z-index: 1
 }
 
 .more1 {
-	border-top: solid 1px #ff9933;
+	
 }
 
 .more1 h2 {
@@ -552,6 +564,7 @@ section.module.parallax {
 
 section.module.parallax-1 {
   background-image: url("../img/banana1.jpg");
+  position: relative;
 }
 
 section.module.parallax-2 {
@@ -585,7 +598,7 @@ section.module.parallax-4 {
 
 /* General styles for all menus */
 .cbp-spmenu {
-	background: #47a3da;
+	background: #fff;
 	position: fixed;
 }
 
@@ -600,7 +613,7 @@ section.module.parallax-4 {
 
 .cbp-spmenu a {
 	display: block;
-	color: #fff;
+	color: #ff9933;
 	font-size: 1.1em;
 	font-weight: 300;
 }

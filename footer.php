@@ -110,7 +110,7 @@ else                /* send the submitted data */
 });
 </script>
 <script src="//code.jquery.com/jquery-latest.min.js"></script>
-<script src="js/demo.js"></script>
+
 <script src="js/classie.js"></script>
 <script src="js/menu.js"></script>
 		
