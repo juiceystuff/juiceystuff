@@ -16,6 +16,7 @@ h1 {
 
 h2 {
 	font-size: 2.75em;
+	font-family: 'Raleway', sans-serif;
 }
 
 strong {
@@ -103,6 +104,7 @@ button:focus {outline:0 !important;}
 	margin-top: -20px;
 	text-align: center;
 	font-size: 1.5rem;
+	color: #FFF;
 }
 
 #pushright {
@@ -128,9 +130,23 @@ button:focus {outline:0 !important;}
 	position: relative;
 }
 
-#panel1 {
-	background: url("../img/banana2.jpg");
+
+.slide1{
+	background-attachment: fixed;
+	width:100%;
+	height:500px;
+	position: relative;
+}
+
+.panel1 {
+	background: url("../img/home.jpg");
 	height: 1000px;
+}
+
+.panel1 #overlay {
+	background: url("../img/dots.png");
+	width: 100%;
+	height: 100%;
 }
 
 #panel2 {
@@ -175,15 +191,15 @@ button:focus {outline:0 !important;}
 
 .landing-title h3 {
 	font-family: 'Raleway', sans-serif;
-	color: #000;
-	font-weight: 400;
+	color: #FFF;
+	font-weight: 500;
 	text-align: center;
 	margin-top: 0px;
 	z-index: 1
 }
 
 .more1 {
-	
+	border-top: 1px solid #ff9933;
 }
 
 .more1 h2 {
@@ -289,6 +305,11 @@ img.hoverimages:hover {
 	 color: #fff;
  }
  
+
+ .creative{
+ 	font-family: 'Raleway', sans-serif;
+ }
+
 @media screen and (max-width:600px) {
 	 .banner h1 {
 	 font-size: 1.5em;
@@ -351,7 +372,6 @@ img.hoverimages:hover {
 	height: 50px;
 	background-color: #000;
 	color: #fff;
-	
 }
 
 

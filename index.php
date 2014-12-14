@@ -53,7 +53,7 @@
 
 	<script type="text/javascript">
 	jQuery(window).scroll(function() {
- 	 if (jQuery(this).scrollTop() > 980) {
+ 	 if (jQuery(this).scrollTop() > 985) {
     jQuery(".menu-main").css({"position": "fixed", "top": 0, "width": "100%", "border-bottom": "solid 1px #ff9933"});
   } else {
     jQuery(".menu-main").removeAttr("style");
@@ -82,7 +82,7 @@
 
 <div class="loader"></div>
 	
-<section class="slide" id="panel1" data-slide="1" data-stellar-background-ratio="0.75">
+<section class="slide panel1" id="overlay" data-slide="1" data-stellar-background-ratio="0.75">
 	<div class="menu-main">
   		<div class="row">
   			<div class="twelve columns">
@@ -117,7 +117,7 @@
 				<div class="twelve columns" style="margin-top:70px; padding-bottom:50px;">
 					<div class="six columns">
 						<p id="shout">At the <strong id="title">Digital Design Studio</strong>
-						we push the boundaries of <strong>current technology</strong> and always look for ways to create innovating idea's to provide the best user experience.</p>
+						we push the boundaries of <strong>technology</strong> to create an innovative user experience.</p>
 					</div>
 					
 					<div class="six columns" style="margin-left:20px;padding-top:50px;">
@@ -147,7 +147,7 @@
 </section>
 
 <section class="module parallax parallax-2">
-	<article id="creative">
+	<article class="creative">
 		<div class="row">
         	<div class="twelve columns centered text-center" style="margin-top:110px;">
 				<img src="img/creative_round.png" style="padding-right:20px;">
